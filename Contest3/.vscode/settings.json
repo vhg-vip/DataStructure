@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "xstddef": "cpp",
+        "algorithm": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}
