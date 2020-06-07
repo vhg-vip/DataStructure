@@ -1,0 +1,24 @@
+200517 090557.794|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to D:\C++\pc2Client - Copy\bin\logs directory.
+200517 090557.794|INFO|AWT-EventQueue-0|info|
+200517 090557.794|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_231 build 5102 Windows 10 10.0 (amd64) 
+200517 090557.794|INFO|AWT-EventQueue-0|info|Login: 1911 (aka team1911)
+200517 090557.795|INFO|AWT-EventQueue-0|startLog|Working directory is D:\C++\pc2Client - Copy\bin
+200517 090557.795|INFO|AWT-EventQueue-0|startLog|Process id is 14128@DESKTOP-MKVEK3F
+200517 090557.796|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.88.119:50002 as TEAM1911 @ site 0
+200517 090557.796|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM1911 @ site 0
+200517 090557.801|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM1911 @ site 0 -> SERVER0 @ site 0
+200517 090557.802|INFO|Thread-4|run|send(Serializable)
+200517 090557.802|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM1911 @ site 0 -> SERVER0 @ site 0
+200517 090557.803|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200517 090557.998|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200517 090558.003|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_FAILED] #76162 SERVER0 @ site 1 -> TEAM1911 @ site 0
+200517 090558.004|INFO|Thread-5|dumpPacket|Packet LOGIN_FAILED (Seq #76162, o#76162 ) recieveObject
+200517 090558.004|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-ACM1 @ 10.99.3.97) (Contest Id: Default--8373906412947302445)
+200517 090558.004|INFO|Thread-5|dumpPacket|    To: TEAM1911 @ site 0
+200517 090558.004|INFO|Thread-5|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Account inactive
+200517 090558.004|INFO|Thread-5|info|handlePacket start Packet[LOGIN_FAILED] #76162 SERVER0 @ site 1 -> TEAM1911 @ site 0
+200517 090558.004|INFO|Thread-5|dumpPacket|Packet LOGIN_FAILED (Seq #76162, o#76162 ) handlePacket
+200517 090558.004|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-ACM1 @ 10.99.3.97) (Contest Id: Default--8373906412947302445)
+200517 090558.004|INFO|Thread-5|dumpPacket|    To: TEAM1911 @ site 0
+200517 090558.004|INFO|Thread-5|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Account inactive
+200517 090559.754|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #76162 SERVER0 @ site 1 -> TEAM1911 @ site 0
