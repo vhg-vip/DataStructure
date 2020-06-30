@@ -28,19 +28,9 @@ void DFS(int u, vector<int> a[]){
 }
 
 void DuongDi(int u, int v){
-    check = false;
     int k = truoc[v];
-    if(k==0){
-        cout << "NO" << endl;
-        return;
-    }
-    else{
-        while(k!=u){
-            k = truoc[k];
-            check = true;
-        }
-    }
-    if(check == true) cout << "YES" << endl;
+    if(k) cout << "YES" << endl;
+    else cout << "NO" << endl;
 }
 
 int main(){
