@@ -1,10 +1,14 @@
 {
     "files.associations": {
+<<<<<<< HEAD
         "xstring": "cpp",
         "ostream": "cpp",
         "iostream": "cpp",
         "vector": "cpp",
         "istream": "cpp",
         "algorithm": "cpp"
+=======
+        "iostream": "cpp"
+>>>>>>> 4372c6b673ddf276554843d851ae1c0045e00614
     }
 }
